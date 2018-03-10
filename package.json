@@ -1,0 +1,17 @@
+{
+  "name": "bezzerwizzer42",
+  "version": "1.0.0",
+  "description": "fun game mode for bezzerwizzer for 2 players",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "game",
+    "bezzerwizzer",
+    "javascript",
+    "minimalist"
+  ],
+  "author": "stefankarlsson",
+  "license": "ISC"
+}
