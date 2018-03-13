@@ -23,7 +23,7 @@ Category.categories = [
 	'Näringsliv',
 	'Politik',
 	'Samhälle',
-	'Sport och spel',
+	'Sport & spel',
 	'Språk',
 	'Teknik',
 	'Tradition & tro',
