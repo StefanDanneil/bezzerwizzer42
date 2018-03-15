@@ -1,5 +1,6 @@
 (function(){
-	const Category = require('./category');
+	const Styles = require('./styles/main.scss');
+	const Category = require('./category/');
 
 	changeCategory = function () {
 		let el = document.getElementById('category-name');

@@ -6,6 +6,7 @@
   "scripts": {
     "test": "jest",
     "start": "webpack --mode=development --watch & php -S localhost:8080",
+    "start:dev": "webpack-dev-server",
     "build": "webpack --mode=production"
   },
   "keywords": [
@@ -16,12 +17,15 @@
   ],
   "author": "stefankarlsson",
   "license": "ISC",
-  "dependencies": {},
   "devDependencies": {
-    "babel-loader": "^7.1.4",
+    "css-loader": "^0.28.10",
     "jest": "^22.4.2",
-    "webpack": "^4.1.1",
-    "webpack-cli": "^2.0.11"
+    "extract-text-webpack-plugin": "^1.0.1",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.1.1"
   },
   "repository": "https://github.com/stefankarlsson/bezzerwizer42"
 }

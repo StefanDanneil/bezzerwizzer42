@@ -1,3 +1,5 @@
+require('./category.scss');
+
 class Category {
 
 	static getRandom() {
@@ -15,7 +17,7 @@ Category.categories = [
 	'Historia',
 	'Konst & scen',
 	'Litteratur',
-	'Mat och dryck',
+	'Mat & dryck',
 	'Musik',
 	'Människan',
 	'Natur',
