@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "webpack --mode=development --watch & php -S localhost:8080",
-    "start:dev": "webpack-dev-server",
+    "dev": "webpack-dev-server",
     "build": "webpack --mode=production"
   },
   "keywords": [
@@ -18,14 +17,18 @@
   "author": "stefankarlsson",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync-webpack-plugin": "^2.0.1",
     "css-loader": "^0.28.10",
-    "jest": "^22.4.2",
     "extract-text-webpack-plugin": "^1.0.1",
+    "jest": "^22.4.2",
     "node-sass": "^4.7.2",
     "sass-loader": "^6.0.7",
     "style-loader": "^0.20.3",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.1.1"
   },
-  "repository": "https://github.com/stefankarlsson/bezzerwizer42"
+  "repository": "https://github.com/stefankarlsson/bezzerwizer42",
+  "dependencies": {
+    "browser-sync": "^2.23.6"
+  }
 }
