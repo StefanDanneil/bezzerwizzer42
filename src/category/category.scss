@@ -1,11 +1,12 @@
 .category-card {
-	width: 80%;
+	width: 100%;
 	height: 100vh;
 	margin: auto;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
+	perspective: 800px;
 
 	#category {
 		height: 500px;
@@ -16,6 +17,9 @@
 		background-color: white;
 		border-radius: 3em;
 		box-shadow: 6px 6px 19px -4px rgba(0,0,0,0.75);
+		transform-style: preserve-3d;
+		transition: transform 2s;
+		text-align: center;
 
 		h1 {
 		    font-family: helvetica;
@@ -23,6 +27,18 @@
 		    font-weight: lighter;
 		    font-size: 3em;
 		    text-transform: uppercase;
+		}
+
+		&.flipped {
+			transform: rotateY(720deg);
+		}
+
+		@media screen and (max-width: 550px) {
+			width: 90vw;
+    		height: 90vw;
+    		h1 {
+    			font-size: 2em;
+    		}
 		}
 	}
 }

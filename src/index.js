@@ -4,8 +4,15 @@
 
 	changeCategory = function () {
 		let el = document.getElementById('category-name');
-		el.textContent = Category.getRandom();
+		el.parentElement.classList.toggle('flipped');
+
+		for (var i = 1; i < 4; i++) {
+	    	setTimeout(function () {
+	    		el.textContent = Category.getRandom();
+    		}, 400*i);
+		}
+
 	}
 
-	changeCategory();
+	document.getElementById('category-name').textContent = Category.getRandom();
 })();
