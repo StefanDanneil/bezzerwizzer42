@@ -19,16 +19,15 @@
   "devDependencies": {
     "browser-sync-webpack-plugin": "^2.0.1",
     "css-loader": "^0.28.10",
-    "extract-text-webpack-plugin": "^1.0.1",
+    "extract-text-webpack-plugin": "^2.0.1",
     "jest": "^22.4.2",
     "node-sass": "^4.7.2",
     "sass-loader": "^6.0.7",
     "style-loader": "^0.20.3",
-    "webpack": "^1.14.0",
-    "webpack-dev-server": "^1.1.1"
+    "webpack": "^2.0.0",
+    "webpack-dev-server": "^1.1.1",
+    "browser-sync": "^2.23.6",
+    "ajv": "^6.2.1"
   },
-  "repository": "https://github.com/stefankarlsson/bezzerwizer42",
-  "dependencies": {
-    "browser-sync": "^2.23.6"
-  }
+  "repository": "https://github.com/stefankarlsson/bezzerwizer42"
 }
